@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="cool585" fetch="https://github.com/cool585"/>
+  <remote name="Thiago" fetch="https://github.com/thz11"/>
+  <remote name="Thiago2" fetch="https://github.com/thiaguin444"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
-  <remote name="Thiago22" fetch="https://github.com/thz22"/>
-  <remote name="Thiago" fetch="https://github.com/thiaguin444"/>
   
 <!--Trees-->
   <project path="device/motorola/odessa"
-           name="android_device_motorola_odessa-11"
+           name="android_device_motorola_odessa-13"
            remote="Thiago"
            revision="thirteen" />
            
   <project path="device/motorola/sm6150-common"
-           name="android_device_motorola_sm6150-common11"
-           remote="Thiago"
+           name="android_device_motorola_sm6150-common-13"
+           remote="Thiago2"
            revision="thirteen" />
            
   <project path="kernel/motorola/sm6150"
-           name="android_kernel_motorola_sm6150"
+           name="android_kernel_motorola_sm6150-13"
            remote="Thiago"
-           revision="lineage-18.1" />
+           revision="lineage-20.0" />
+
+  <project path="hardware/motorola"
+           name="android_hardware_motorola"
+           remote="LineageOS"
+           revision="lineage-20" />
+
+  <project path="system/qcom"
+           name="android_system_qcom"
+           remote="LineageOS"
+           revision="lineage-20" />
 
   <project path="vendor/motorola"
-           name="proprietary_vendor_motorola"
+           name="proprietary_vendor_motorola-13"
            remote="Thiago"
            revision="lineage-20.0" />  
 </manifest>
