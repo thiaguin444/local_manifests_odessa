@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="cool585" fetch="https://github.com/cool585"/>
+  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
+  <remote name="Thiago22" fetch="https://github.com/thz22"/>
+  <remote name="Thiago" fetch="https://github.com/thiaguin444"/>
+  
+<!--Trees-->
+  <project path="device/motorola/odessa"
+           name="android_device_motorola_odessa-11"
+           remote="Thiago"
+           revision="dot" />
+           
+  <project path="device/motorola/sm6150-common"
+           name="android_device_motorola_sm6150-common11"
+           remote="Thiago"
+           revision="dot" />
+           
+  <project path="kernel/motorola/sm6150"
+           name="android_kernel_motorola_sm6150"
+           remote="Thiago"
+           revision="lineage-18.1" />
+
+  <project path="vendor/motorola"
+           name="proprietary_vendor_motorola"
+           remote="Thiago"
+           revision="lineage-19.1" />  
+</manifest>
