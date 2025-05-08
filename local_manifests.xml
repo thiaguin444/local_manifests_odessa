@@ -11,7 +11,7 @@
            revision="lineage-19.1" />
            
   <project path="device/motorola/sm6150-common"
-           name="android_device_motorola_sm6150-common12"
+           name="android_device_motorola_sm6150-common-12"
            remote="Thiago"
            revision="lineage-19.1" />
            
