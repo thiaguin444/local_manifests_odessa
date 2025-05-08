@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="cool585" fetch="https://github.com/cool585"/>
-  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   <remote name="Thiago22" fetch="https://github.com/thz22"/>
   <remote name="Thiago" fetch="https://github.com/thiaguin444"/>
   
