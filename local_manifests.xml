@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="cool585" fetch="https://github.com/cool585"/>
-  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
+  <remote name="LineageOS1" fetch="https://github.com/LineageOS"/>
   <remote name="Thiago22" fetch="https://github.com/thz22"/>
   <remote name="Thiago223" fetch="https://github.com/thiaguin444"/>
   <remote name="Thiago" fetch="https://github.com/thiagochizz44"/>
@@ -24,12 +24,12 @@
 
     <project path="hardware/motorola"
            name="android_hardware_motorola"
-           remote="LineageOS"
+           remote="LineageOS1"
            revision="lineage-21" />
   
   <project path="system/qcom"
            name="android_system_qcom"
-           remote="LineageOS"
+           remote="LineageOS1"
            revision="lineage-21" />
 
   <project path="vendor/motorola"
