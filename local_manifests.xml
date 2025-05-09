@@ -8,12 +8,12 @@
   
 <!--Trees-->
   <project path="device/motorola/odessa"
-           name="android_device_motorola_odessa-13"
+           name="android_device_motorola_odessa-14"
            remote="Thiago223"
            revision="pixelos" />
            
   <project path="device/motorola/sm6150-common"
-           name="device_motorola_sm6150-common-15"
+           name="device_motorola_sm6150-common-14"
            remote="Thiago223"
            revision="fourteen" />
            
