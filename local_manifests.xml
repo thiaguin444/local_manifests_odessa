@@ -19,7 +19,7 @@
            
   <project path="kernel/motorola/sm6150"
            name="kernel_motorola_liber"
-           remote="Thiago"
+           remote="Thiago223"
            revision="sap" />
 
     <project path="hardware/motorola"
